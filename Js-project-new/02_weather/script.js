@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const cityNameDisplay = document.getElementById("city-name");
   const temperatureDisplay = document.getElementById("temperature");
   const descriptionDisplay = document.getElementById("description");
-  const errorMessage = document.getElementById("error-messag");
+  const errorMessage = document.getElementById("error-message");
 
-  const API_KEY = "5f56d525d1619d0a2cd2eac4ce55588e"; //env variables
+  const API_KEY = "8350a841bfc97049f5d96c7f9998418c"; //env variables
 
   getWeatherBtn.addEventListener("click", async () => {
     const city = cityInput.value.trim();
