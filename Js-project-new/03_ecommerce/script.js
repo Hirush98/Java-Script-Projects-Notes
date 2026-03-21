@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const checkOutBtn = document.getElementById("checkout-btn");
 
   products.forEach((product) => {
+    //for each method && arow function
     const productDiv = document.createElement("div");
     productDiv.classList.add("product");
     productDiv.innerHTML = `
